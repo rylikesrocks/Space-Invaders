@@ -51,7 +51,7 @@ public class GameModel {
 	private final int alienHeight = 24;
 	private final int hSpacing = 8;
 	private final int vSpacing = 12;
-	private double alienSpeed = 40; // px/sec horizontally
+	private double alienSpeed = 50; // px/sec horizontally
 	private boolean movingRight = true;
 	private final int dropDistance = 20;
 
