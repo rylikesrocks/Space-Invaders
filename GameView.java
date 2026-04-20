@@ -87,10 +87,10 @@ public class GameView extends JPanel {
 		// Draw player as a ship (main body + wings). If in damage flash window, blink red.
 		double px = model.getPlayerX();
 		double py = model.getPlayerY();
-		int bodyW = 48;
-		int bodyH = 12;
-		int wingW = 18;
-		int wingH = 8;
+		int bodyW = 20;
+		int bodyH = 38;
+		int wingW = 20;
+		int wingH = 18;
 		int bodyX = (int) Math.round(px - bodyW / 2.0);
 		int bodyY = (int) Math.round(py - bodyH / 2.0);
 
