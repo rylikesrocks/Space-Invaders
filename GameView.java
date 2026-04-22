@@ -90,7 +90,7 @@ public class GameView extends JPanel {
 		int bodyW = 20;
 		int bodyH = 38;
 		int wingW = 20;
-		int wingH = 10;
+		int wingH = 28;
 		int bodyX = (int) Math.round(px - bodyW / 2.0);
 		int bodyY = (int) Math.round(py - bodyH / 2.0);
 
